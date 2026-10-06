@@ -1,0 +1,20 @@
+[
+  {
+    "scenario": "Valid Admin Login",
+    "username": "santh87@gmail.com",
+    "password": "Santhu.8788@",
+    "expectedText": "Incorrect email or password."
+  },
+  {
+    "scenario": "Valid Standard Login",
+    "username": "santhu8788@gmail.com",
+    "password": "Santhu.8788@",
+    "expectedText": "Login Successfully"
+  }, 
+  {
+    "scenario": "Valid Standard Login1",
+    "username": "santhu878@gmail.com",
+    "password": "Santhu.87881@",
+    "expectedText": "Incorrect email or password."
+  }
+]
